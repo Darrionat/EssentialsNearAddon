@@ -1,0 +1,25 @@
+indicators:
+  1:
+    message: '&a%square%%square%%square%%square%%square%'
+  2:
+    min: 100
+    message: '&e%square%%square%%square%%square%&8%square%'
+  3:
+    min: 300
+    message: '&7%square%%square%%square%&8%square%%square%'
+  4:
+    min: 1000
+    message: '&c%square%%square%&8%square%%square%%square%'
+  5:
+    min: 5000 
+    max: 10000
+    message: '&4%square%&8%square%%square%%square%%square%'
+messages:
+  header: '&8-----&7Players Nearby&8-----'
+  nearMessage: '%indicator% &8// &f%playerName% &8(&7%distance%&8)'
+  footer: '&8----------------------------'
+  noPlayersNearby: '&cThere are no players nearby!'
+  noPermission: '&4Hey! &cYou do not have the permission %permission%'
+sendHeader: true
+sendFooter: true
+maxListSize: 10

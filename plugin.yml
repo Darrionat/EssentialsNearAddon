@@ -1,0 +1,11 @@
+name: EssentialsNearAddon
+author: Darrionat
+main: me.darrionat.essentialsNearAddon.EssentialsNearAddon
+version: 1.1
+description: Changes the /near command of Essentials
+depend: [Essentials]
+api-version: 1.13
+
+commands:
+  near:
+    usage: /<command>
