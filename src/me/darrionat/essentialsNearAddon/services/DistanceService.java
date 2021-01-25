@@ -31,6 +31,8 @@ public class DistanceService {
 			if (p == player) {
 				continue;
 			}
+			if (!p.getWorld().equals(player.getWorld()))
+				continue;
 			double distance = getDistance(player, p);
 			if (distance > plugin.getConfig().getInt("indicators.5.max"))
 				continue;

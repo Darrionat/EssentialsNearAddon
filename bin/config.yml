@@ -19,6 +19,7 @@ messages:
   nearMessage: '%indicator% &8// &f%playerName% &8(&7%distance%&8)'
   footer: '&8----------------------------'
   noPlayersNearby: '&cThere are no players nearby!'
+  noPermission: '&4Hey! &cYou do not have the permission %permission%'
 sendHeader: true
 sendFooter: true
 maxListSize: 10
